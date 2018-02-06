@@ -68,11 +68,6 @@ public class SimpleIME extends InputMethodService
         }
     }
 
-    /**
-     * Play sound on key press
-     *
-     * @param keyCode of pressed key
-     */
     private void playClick(int keyCode) {
         AudioManager am = (AudioManager) getSystemService(AUDIO_SERVICE);
         switch (keyCode) {
