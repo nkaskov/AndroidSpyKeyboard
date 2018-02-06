@@ -3,7 +3,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="ThemeOverlay.AppCompat.Light">
         <!-- Customize your theme here. -->
-        <item name="colorControlNormal">@color/colorWhite</item>
+        <!--<item name="colorControlNormal">@color/colorWhite</item>-->
         <!--<item name="colorPrimary">@color/colorPrimary</item>-->
         <!--<item name="colorWhite">@color/colorWhite</item>-->
         <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
