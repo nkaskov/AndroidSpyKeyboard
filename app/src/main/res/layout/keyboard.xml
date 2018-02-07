@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
     android:keyPreviewHeight="25dp"
-    android:keyTextSize="30sp"
+    android:keyTextSize="25sp"
     android:textStyle="normal"
     android:keyPreviewLayout="@layout/preview"
     android:keyBackground="@color/colorLight"

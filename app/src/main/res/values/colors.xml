@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">@android:color/white</color>
     <color name="colorAccent">@android:color/white</color>
     <color name="colorLight">#ECF4F4</color>
+    <color name="colorGray">#C6CDCD</color>
     <color name="colorDark">#000000</color>
 
     <color name="key_preview_background">@android:color/white</color>

@@ -6,6 +6,6 @@
     android:background="@color/colorLight"
     android:textColor="@color/colorDark"
     android:textStyle="normal"
-    android:textSize="55sp" />
+    android:textSize="10sp" />
 
     <!--background is important parameter-->

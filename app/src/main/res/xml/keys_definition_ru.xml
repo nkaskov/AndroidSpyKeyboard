@@ -6,7 +6,7 @@
     android:keyHeight="60dp">
 
     <Row>
-        <Key android:codes="1081" android:keyLabel="й" android:keyEdgeFlags="left" />
+        <Key android:codes="1081" android:keyLabel="й" android:horizontalGap="5%" android:keyEdgeFlags="left" />
         <Key android:codes="1094" android:keyLabel="ц" />
         <Key android:codes="1091" android:keyLabel="у" />
         <Key android:codes="1082" android:keyLabel="к" />
@@ -16,8 +16,7 @@
         <Key android:codes="1096" android:keyLabel="ш" />
         <Key android:codes="1097" android:keyLabel="щ" />
         <Key android:codes="1079" android:keyLabel="з" />
-        <Key android:codes="1093" android:keyLabel="х" />
-        <Key android:codes="1098" android:keyLabel="ъ" android:keyEdgeFlags="right" />
+        <Key android:codes="1093" android:keyLabel="х" android:keyEdgeFlags="right" />
     </Row>
     <Row>
         <Key android:codes="1092" android:keyLabel="ф" android:horizontalGap="5%" android:keyEdgeFlags="left" />
@@ -44,17 +43,17 @@
         <Key android:codes="1100" android:keyLabel="ь" />
         <Key android:codes="1073" android:keyLabel="б" />
         <Key android:codes="1102" android:keyLabel="ю" />
-        <Key android:codes="-5" android:keyIcon="@drawable/ic_backspace_white_24dp"
+        <Key android:codes="-5" android:keyIcon="@drawable/ic_backspace_black_24dp"
             android:isRepeatable="true" android:keyEdgeFlags="right" android:keyWidth="13%p" />
     </Row>
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="-6" android:keyLabel="\?123" android:keyWidth="16%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="-2" android:keyIcon="@drawable/ic_language_white_24dp" />
-        <Key android:codes="44" android:keyLabel=","/>
-        <Key android:codes="32" android:keyLabel=" " android:keyWidth="29%p" android:isRepeatable="true"/>
-        <Key android:codes="1105" android:keyLabel="ё" />
+        <Key android:codes="47" android:keyLabel="/"/>
+        <Key android:codes="-2" android:keyIcon="@drawable/ic_language_black_24dp" />
+        <Key android:codes="32" android:keyLabel="Русский" android:keyWidth="39%p" android:isRepeatable="true" android:keyBackground="@color/colorGray" />
+        <!--Key android:codes="1105" android:keyLabel="ё" />-->
         <Key android:codes="46" android:keyLabel="." />
-        <Key android:codes="-4" android:keyIcon="@drawable/ic_keyboard_return_white_24dp"
+        <Key android:codes="-4" android:keyIcon="@drawable/ic_keyboard_return_blue_24dp"
             android:keyWidth="19%p" android:keyEdgeFlags="right"/>
     </Row>
 
